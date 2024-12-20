@@ -1,0 +1,110 @@
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/119/436/desktop-wallpaper-black-background-pics.jpg");
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    top: 450px;
+    left: 590px;
+    color: white;
+}
+#box2{
+    position: absolute;
+    top: 500px;
+    left: 590px;
+    color: white;
+}
+.profilepic{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    position: absolute;
+    top: 180px;
+    left: 590px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 30px;
+}
+#home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#about{
+    color: white;
+    height: 100vh;
+    justify-content: center;
+    padding: 20px;
+    text-align: left;
+}
+#about h2{
+    margin-bottom: 15px;
+}
+#about p{
+    margin-bottom: 15px;
+}
+#skills h1{
+    color: white;
+}
+.skillcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+html{
+    position: absolute;
+    top: 600px;
+}
+#para1{
+    position: absolute;
+    left: 150px;
+}
+#para2{
+    position: absolute;
+    left: 510px;
+    top: 2100px;
+}
+#para3{
+    position: absolute;
+    left: 850px;
+}
+#para4{
+    position: absolute;
+    left: 1500px;
+    top: 2100px;
+}
+#education h1{
+    color: black;
+    position: absolute;
+    top: 2150px;
+}
+.educationcontainer{
+    border: 2px solid white;
+    color: black;
+    background-color: white;
+}
+#contact{
+    color: white;
+    align-items: center;
+
+}
+.ret1 {
+    width: 100%; /* Full width of container */
+    max-width: 1600px; /* Maximum width for the map */
+    height: 450px; /* Set height */
+    margin: 0 auto; /* Center the map */
+    border-radius: 10px; /* Optional: Rounded edges for the container */
+    overflow: hidden; /* Ensures iframe doesn't spill out */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow effect */
+}
+
+.ret1 iframe {
+    width: 100%; /* Match the width of the container */
+    height: 100%; /* Match the height of the container */
+    border: none; /* Remove iframe border */
+}
